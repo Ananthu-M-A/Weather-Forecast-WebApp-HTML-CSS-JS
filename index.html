@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="weather-container">
+      <h1>Weather App</h1>
+      <button popovertarget="toast" id="getWeather">
+        Get Current Weather
+      </button>
+      <div class="weather-card" id="weatherInfo">
+        <h2 id="location"></h2>
+        <img id="weatherIcon" alt="Weather Icon" />
+        <p id="description"></p>
+        <p id="temperature"></p>
+        <p id="humidity"></p>
+        <p id="wind"></p>
+      </div>
+      <div popover id="toast">
+        <h1 id="message"></h1>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
