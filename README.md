@@ -23,7 +23,7 @@ A weather application displaying current weather conditions.
 ## Getting Started
 
 1. Clone the repository: `git clone <repository_url>`
-2. Copy the `.env.example` file to `.env` and configure the necessary environment variables.
+2. Replace the `YOUR_API_KEY` in `script.js` file.
 3. Open `index.html` in your web browser
 
 ## License
